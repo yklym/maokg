@@ -59,14 +59,14 @@ public class Bug extends JPanel implements ActionListener {
 
 
 //        BUG Central Axis
-        g2d.translate(tx, ty);
+//        g2d.translate(tx, ty);
 
         GeneralPath axis = new GeneralPath();
         axis.moveTo(130, 135);
         axis.closePath();
 
-        g2d.rotate(angle, axis.getBounds2D().getCenterX(),
-                axis.getBounds2D().getCenterY());
+//        g2d.rotate(angle, axis.getBounds2D().getCenterX(),
+//                axis.getBounds2D().getCenterY());
 
 
 
