@@ -23,3 +23,5 @@
 hs_err_pid*
 
 .idea
+/lab4/lab4/nbproject/private/
+/lab4/lab4/build/
